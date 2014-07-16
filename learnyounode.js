@@ -128,8 +128,7 @@ http.createServer(function(inStream, outStream) {
   		return chunk.toString().toUpperCase()
 	})).pipe(outStream)
 	}
-}).listen(process.argv[2]);nyone else who does learnyounode, or the verifier, and just work.
-*/
+}).listen(process.argv[2]);
 
 var mymodule = require('./mymodule.js')
 var dir = process.argv[2];
